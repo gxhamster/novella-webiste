@@ -1,11 +1,12 @@
 <template>
   <section>
     <h1 class="section-heading">Who are we?</h1>
-    <p class="leading-loose mt-10 text-2xl">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-      voluptatem error eos illo excepturi nostrum porro aliquid accusantium
-      accusamus enim modi explicabo consequuntur dicta fugiat ea consequatur, id
-      illum asperiores.
+    <p class="section-p">
+      We introduced the idea of Novella to Raa Atoll Education Centre, and they
+      loved our initiative as graduates to digitize our library. We believe that
+      Novella can aid schools to revolutionize library management. Which is why
+      we are thrilled to announce Novella countrywide, so that we can experience
+      the ease with Novella.
     </p>
   </section>
 </template>

@@ -24,9 +24,20 @@ export default {
   css: [],
   plugins: [],
   components: true,
-  buildModules: ["@nuxtjs/tailwindcss"],
+  buildModules: ["@nuxtjs/tailwindcss", "@nuxtjs/fontawesome"],
+  fontawesome: {
+    icons: {
+      solid: ["faCog"],
+      brands: ["faFacebook", "faTwitter", "faViber"],
+    },
+  },
   modules: [],
   build: {
     transpile: ["gsap"],
+    postcss: {
+      plugins: {
+        "postcss-custom-properties": false,
+      },
+    },
   },
 };
